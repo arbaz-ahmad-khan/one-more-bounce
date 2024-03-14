@@ -1,0 +1,90 @@
+{
+    "id": "01aefa93-6044-4159-8358-7e91310aa05f",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "borderWidth": 1920,
+        "borderHeight": 1080
+    },
+    "displayList": [
+        {
+            "type": "TileSprite",
+            "id": "1db51e67-7e3f-42d9-a2b2-a3cd7eb1d6c5",
+            "label": "bg",
+            "scope": "CLASS",
+            "texture": {
+                "key": "bg"
+            },
+            "y": 540.0000015497208,
+            "scaleY": 1.1,
+            "originX": 0,
+            "width": 8000,
+            "height": 898
+        },
+        {
+            "type": "Container",
+            "id": "30929f97-2ae9-4a67-aeac-e5e4bd9ec430",
+            "label": "goalsContainer",
+            "scope": "CLASS"
+        },
+        {
+            "type": "Container",
+            "id": "5fc57cee-b4b3-432f-a678-8c9d205dd1cb",
+            "label": "container_obstacles",
+            "scope": "CLASS"
+        },
+        {
+            "type": "Container",
+            "id": "29420c6a-8455-40f2-8907-8a4454f3df2d",
+            "label": "container_gameOver",
+            "scope": "CLASS",
+            "visible": false,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "c2456583-4e35-462c-8502-5fc2aa110715",
+                    "label": "rectangle_1",
+                    "x": 960,
+                    "y": 540,
+                    "isFilled": true,
+                    "fillColor": "#090554",
+                    "width": 800,
+                    "height": 800
+                },
+                {
+                    "type": "Text",
+                    "id": "5f2ecd8e-b303-46df-8e69-8f5232021302",
+                    "label": "text_1",
+                    "x": 960,
+                    "y": 400,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Game Over",
+                    "fontFamily": "Arial",
+                    "fontSize": "100px",
+                    "stroke": "#5900ce"
+                },
+                {
+                    "type": "Image",
+                    "id": "63a66b39-2cb1-4cd2-9ba1-5e3abbdeeff1",
+                    "label": "restartBtn",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "restart"
+                    },
+                    "x": 960,
+                    "y": 700
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

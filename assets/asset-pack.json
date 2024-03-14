@@ -1,0 +1,68 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/images/ball.png",
+                "type": "image",
+                "key": "ball"
+            },
+            {
+                "url": "assets/images/bg.png",
+                "type": "image",
+                "key": "bg"
+            },
+            {
+                "url": "assets/images/goal.png",
+                "type": "image",
+                "key": "goal"
+            },
+            {
+                "url": "src/Managers/LevelManager.js",
+                "type": "script",
+                "key": "LevelManager"
+            },
+            {
+                "url": "assets/images/particle.png",
+                "type": "image",
+                "key": "particle"
+            },
+            {
+                "url": "assets/images/particle-1.png",
+                "type": "image",
+                "key": "particle-1"
+            },
+            {
+                "url": "assets/images/restart.png",
+                "type": "image",
+                "key": "restart"
+            },
+            {
+                "url": "assets/images/sCircle.png",
+                "type": "image",
+                "key": "sCircle"
+            },
+            {
+                "url": "assets/images/tap.png",
+                "type": "image",
+                "key": "tap"
+            },
+            {
+                "url": "assets/images/triangle.png",
+                "type": "image",
+                "key": "triangle"
+            },
+            {
+                "url": "assets/json/triangleJsonFile.json",
+                "type": "json",
+                "key": "triangleJsonFile"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}
